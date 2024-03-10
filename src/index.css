@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* body{
+    height: 100vh; 
+    width: 100%;
+   background-color: rgb(6, 17, 50);
+   font-family: "Roboto", sans-serif;
+  } */
+  .containerb02{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px 0;
+    height: max-content;
+    /* height:90vh; */
+    border:6px solid orange;
+    border-radius: 15px;
+  }
+  .title1b02{
+    display: inline;
+    float: left;
+    font-size: 3rem;
+    padding-right: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+  }
+  .title2b02{
+    display: inline;
+    float: right;
+    font-size: 3rem;
+    color: orange;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+  }
+  .desb02{
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 1.2rem;
+    margin-top: 90px;
+    color: #7b7777;
+    font-weight: 500;
+  }
+  
+  .Appb02{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    /* min-height: 95vh; */
+    background-color: rgb(245, 245, 245);
+    margin-bottom: 0;
+    position: relative;
+    /* border-radius: 15px 15px 0 0; */
+    /* margin-top: 35px; */
+    
+    /* margin-top: 50px; */
+  
+  }
+  .Cardsb02{
+    display: flex;
+    gap: 20px;
+    
+  }
+  .cardb02{
+    width: 245px;
+    height: max-content;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    margin-left: 20px;
+  
+  }
+  .plan-Priceb02{
+    font-size: 2.5rem;
+    margin-bottom: 17px;
+    color: orange;
+    font-weight: 300;
+  }
+  .plan-nameb02{
+    margin-bottom: 13px;
+    color: orange;
+    font-weight:600;
+    font-size: 1.6rem;
+  }
+  .descriptionb02{
+    margin-bottom: 12px;
+    line-height: 25px;
+    text-align: center;
+    font-size: .9rem;
+  }
+  .btnb02{
+    margin-top: 10px;
+    padding: 8px 20px;
+    border-radius: 18px;
+    width: 200px;
+    cursor: pointer;
+   
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #302e2e;
+    color: white;
+  
+  }
+  .btnb02:hover{
+    background-color: rgb(50, 50, 79);
+  }
+  .listingsb02{
+    width: 280px;
+    height: max-content;
+    padding: .8rem;
+    font-size: 14px;
+    margin-left: 10px;
+    
+   
+  }
+  .hr1b02{
+    margin-top: 12px;
+  
+    margin-bottom:12px;
+  
+  }
+  .hr2b02{
+    margin-top: 12px;
+    
+    margin-bottom:12px;
+  
+  }
+  ul {
+    list-style: none;
+    margin-left: 5px;
+    margin-right: 2px;
+  }
+  
+  ul li:before {
+    content: '✓  ';
+    
+  }
+  ul li{
+    line-height: 28px;
+  }
+  
